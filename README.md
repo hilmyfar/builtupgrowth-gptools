@@ -24,7 +24,12 @@ While the methods are not scientifically proven (yet), internal testing has show
 
 After independently extracting built-up areas from each raster, this program will overlay all of them to create a spatiotemporal built-up growth map and calculate built-up growth elasticity by comparing it with population growth data. This elasticity calculation references Cai et al. (2022) to determine the rationality of urban expansion[2].
 
-Feel free to use it for any non-commercial (non-profit) purposes, provided you credit me.
----
+**Video Demo**
+
+
+https://github.com/user-attachments/assets/571d1181-818d-4865-bbb2-78a7381ee60d
+
+**Feel free to use it for any non-commercial (non-profit) purposes, provided you credit me.**
+
 [1] Xu, H. (2008). A new index for delineating built‐up land features in satellite imagery. International Journal of Remote Sensing, 29(14), 4269–4276. https://doi.org/10.1080/01431160802039957
 [2] Cai, E., Bi, Q., Lu, J., & Hou, H. (2022). The Spatiotemporal Characteristics and Rationality of Emerging Megacity Urban Expansion: A Case Study of Zhengzhou in Central China. Frontiers in Environmental Science, 10. https://doi.org/10.3389/fenvs.2022.860814
