@@ -20,7 +20,7 @@ To create a program capable of accomplishing all objectives in a single executio
 ```
 Based on my testing in three different urban agglomerations on Java Island—Cirebon Raya, Semarang, and Malang Raya—the optimal mIBI threshold value is consistently above -0.05 for Landsat 8 and above 0 for Sentinel 2. However, it still interferes with water areas. Therefore, adding the condition that NDBI is greater than MNDWI perfectly excludes water from the results.
 
-While the methods are not scientifically proven (yet), internal testing has shown it achieves 85-92% Overall Accuracy (OA) in the three urban agglomeration areas. Essentially, this is a fun experiment and learning exercise.
+While the methods are not scientifically proven (yet), internal testing has shown it achieves 85-92% Overall Accuracy (OA) in the three urban agglomeration areas. The processing time averages 9.5 seconds for one metropolitan area (373.7 km² in size) with three separate time periods. Essentially, this is a fun experiment and learning exercise.
 
 After independently extracting built-up areas from each raster, this program will overlay all of them to create a spatiotemporal built-up growth map and calculate built-up growth elasticity by comparing it with population growth data. This elasticity calculation references Cai et al. (2022) to determine the rationality of urban expansion[2].
 
